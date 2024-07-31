@@ -1,9 +1,9 @@
 import './App.css';
 import { Contact, Experience, Hero, Portfolio } from './components';
 
-function App() {
+const App = () => {
     return (
-        <div>
+        <div className="min-h-screen bg-gradient-to-b from-black to-gray-800 text-white">
             <Hero />
             <Experience />
             <Portfolio />
